@@ -1,0 +1,13 @@
+name: compare-configs
+version: 0.0.1
+description: Compare sample config file found in repo and actual config file on the server to determine what, if any, properties need to be added and/or removed. Assumes config structure property=value.
+keywords:
+  - config
+  - compare
+properties:
+  sample:
+    type: string
+    required: true
+  actual:
+    type: string
+    required: true
