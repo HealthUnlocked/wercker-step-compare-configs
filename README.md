@@ -19,7 +19,7 @@ In addition two environment variables should have already been defined (typicall
 ```yml
 build:
 	steps:
-		compfigs:
+		compare-configs:
 			sample: foo.sample.properties
 			actual: /etc/foo.properties
 ```
