@@ -1,5 +1,5 @@
 name: compare-configs
-version: 0.0.1
+version: 0.0.2
 description: Compare sample config file found in repo and actual config file on the server to determine what, if any, properties need to be added and/or removed. Assumes config structure property=value.
 keywords:
   - config
